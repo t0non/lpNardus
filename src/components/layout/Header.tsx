@@ -19,8 +19,16 @@ export function Header() {
   ];
 
   return (
-    <header className="header absolute top-0 left-0 z-50 bg-transparent">
-      <div className="container header-inner">
+    <>
+      {/* Sticky Local SEO Bar */}
+      <div className="fixed top-0 left-0 w-full h-10 bg-[#070e2c] border-b border-white/5 text-white text-xs font-semibold flex items-center justify-center z-50 px-4 gap-2 shadow-sm">
+        <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse shrink-0"></span>
+        <span className="tracking-wide">Manutenção e conserto de refrigeração e ar-condicionado comercial em BH</span>
+      </div>
+      
+      {/* Sticky Main Header */}
+      <header className="header fixed top-10 left-0 w-full z-45 bg-[#0B1643]/90 backdrop-blur-md border-b border-white/5 py-1">
+        <div className="container header-inner">
         <Link href="/" className="header-logo">
           <Image 
             src="/logo_nardus.png" 
@@ -80,5 +88,6 @@ export function Header() {
         </div>
       )}
     </header>
+    </>
   );
 }

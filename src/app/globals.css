@@ -90,7 +90,7 @@ body {
   align-items: center;
   gap: clamp(48px, 7vw, 110px);
   min-height: 82vh;
-  padding-top: 60px;
+  padding-top: 150px;
   padding-bottom: 40px;
 }
 
