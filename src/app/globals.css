@@ -160,9 +160,9 @@ body {
   .hero-inner {
     grid-template-columns: 1fr;
     min-height: auto;
-    gap: 40px;
-    padding-top: 130px;
-    padding-bottom: 60px;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
   .hero-content {
     max-width: 100%;
