@@ -13,7 +13,6 @@ export function Header() {
     { name: "Início", href: "#" },
     { name: "Serviços", href: "#servicos" },
     { name: "Como funciona", href: "#como-funciona" },
-    { name: "Sobre nós", href: "#sobre" },
     { name: "Perguntas Frequentes", href: "#faq" },
     { name: "Contato", href: "#contato" },
   ];

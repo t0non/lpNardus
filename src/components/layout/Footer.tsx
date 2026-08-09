@@ -34,11 +34,11 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Navegação</h3>
             <ul className="space-y-3">
-              <li><Link href="/servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Serviços</Link></li>
-              <li><Link href="/sobre" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Sobre a Nardus</Link></li>
-              <li><Link href="/projetos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Projetos Realizados</Link></li>
-              <li><Link href="/regioes-atendidas" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Regiões Atendidas</Link></li>
-              <li><Link href="/conteudos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Conteúdos úteis</Link></li>
+              <li><Link href="#" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Início</Link></li>
+              <li><Link href="#servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Serviços</Link></li>
+              <li><Link href="#como-funciona" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Como funciona</Link></li>
+              <li><Link href="#faq" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Perguntas Frequentes</Link></li>
+              <li><Link href="#contato" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Contato</Link></li>
             </ul>
           </div>
 
@@ -46,10 +46,10 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Especialidades</h3>
             <ul className="space-y-3">
-              <li><Link href="/servicos/ar-condicionado" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Ar-condicionado Comercial</Link></li>
-              <li><Link href="/servicos/camaras-frias" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Câmaras Frias</Link></li>
-              <li><Link href="/servicos/refrigeracao-comercial" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Refrigeração Comercial</Link></li>
-              <li><Link href="/servicos/refrigeradores" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Manutenção de Refrigeradores</Link></li>
+              <li><Link href="#servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Ar-condicionado Comercial</Link></li>
+              <li><Link href="#servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Câmaras Frias</Link></li>
+              <li><Link href="#servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Refrigeração Comercial</Link></li>
+              <li><Link href="#servicos" className="text-gray-300 hover:text-[var(--color-brand-accent)] text-sm transition-colors">Manutenção de Refrigeradores</Link></li>
             </ul>
           </div>
 
