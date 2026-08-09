@@ -40,7 +40,7 @@ export function Hero() {
               alt="Profissional Nardus Soluções" 
               width={560} 
               height={650} 
-              className="hero-image drop-shadow-2xl max-w-[280px] sm:max-w-[340px] md:max-w-none relative z-10"
+              className="hero-image max-w-[280px] sm:max-w-[340px] md:max-w-none relative z-10"
               priority
               unoptimized={true}
             />
