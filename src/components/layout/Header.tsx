@@ -21,7 +21,7 @@ export function Header() {
   return (
     <>
       {/* Sticky Local SEO Bar */}
-      <div className="fixed top-0 left-0 w-full h-10 bg-[#070e2c] border-b border-white/5 text-white text-[10px] sm:text-xs font-light flex items-center justify-center z-50 px-4 shadow-sm uppercase tracking-widest">
+      <div className="fixed top-0 left-0 w-full h-10 bg-red-600 border-b border-white/5 text-white text-[10px] sm:text-xs font-light flex items-center justify-center z-50 px-4 shadow-sm uppercase tracking-widest">
         <span>Manutenção e conserto de refrigeração e ar-condicionado comercial em BH</span>
       </div>
       
