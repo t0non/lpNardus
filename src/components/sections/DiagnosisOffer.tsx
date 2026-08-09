@@ -20,9 +20,6 @@ export function DiagnosisOffer() {
           {/* Text & Content */}
           <div className="flex-1 space-y-6">
             <div>
-              <span className="text-xs uppercase tracking-widest font-extrabold text-red-600 bg-red-50 px-3 py-1 rounded-full inline-block mb-3">
-                Oferta Exclusiva para BH
-              </span>
               <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-brand-primary)] leading-tight">
                 Diagnóstico técnico sem custo de visita em BH
               </h2>
