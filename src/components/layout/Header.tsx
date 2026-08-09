@@ -26,7 +26,7 @@ export function Header() {
       </div>
       
       {/* Sticky Main Header */}
-      <header className="header fixed top-10 left-0 w-full z-45 bg-[#0B1643]/90 backdrop-blur-md border-b border-white/5 py-1">
+      <header className="header absolute top-10 left-0 w-full z-45 bg-transparent py-1">
         <div className="container header-inner">
         <Link href="/" className="header-logo">
           <Image 
