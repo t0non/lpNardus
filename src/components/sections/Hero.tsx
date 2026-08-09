@@ -45,7 +45,7 @@ export function Hero() {
               unoptimized={true}
             />
             {/* Bottom gradient fade overlay */}
-            <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 z-20 pointer-events-none" style={{background: 'linear-gradient(to top, var(--color-brand-primary) 0%, transparent 100%)'}} />
+            <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 z-20 pointer-events-none" style={{background: 'linear-gradient(to top, #0B1643 0%, rgba(11,22,67,0) 100%)'}} />
           </div>
         </div>
       </div>
