@@ -118,7 +118,7 @@ export function ReviewsSection() {
           {[...row1, ...row1].map((review, i) => (
             <div 
               key={i} 
-              className="w-[350px] md:w-[400px] bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.01)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:border-gray-200 transition-all duration-300 flex flex-col justify-between gap-6 shrink-0"
+              className="w-[280px] sm:w-[320px] md:w-[400px] bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.01)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:border-gray-200 transition-all duration-300 flex flex-col justify-between gap-4 md:gap-6 shrink-0"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -152,7 +152,7 @@ export function ReviewsSection() {
           {[...row2, ...row2].map((review, i) => (
             <div 
               key={i} 
-              className="w-[350px] md:w-[400px] bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.01)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:border-gray-200 transition-all duration-300 flex flex-col justify-between gap-6 shrink-0"
+              className="w-[280px] sm:w-[320px] md:w-[400px] bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.01)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:border-gray-200 transition-all duration-300 flex flex-col justify-between gap-4 md:gap-6 shrink-0"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
