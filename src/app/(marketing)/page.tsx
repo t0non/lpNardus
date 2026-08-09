@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/Hero";
 import { CredibilityBar } from "@/components/sections/CredibilityBar";
+import { BenefitsSection } from "@/components/sections/BenefitsSection";
 import { PainSection } from "@/components/sections/PainSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <CredibilityBar />
+      <BenefitsSection />
       <PainSection />
       <ServicesSection />
       <ProcessSteps />
