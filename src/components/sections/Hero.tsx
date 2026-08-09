@@ -8,9 +8,9 @@ export function Hero() {
     <section className="relative bg-[var(--color-brand-primary)] text-white overflow-hidden">
       <div className="container relative z-10 pb-8 md:pb-16">
         <div className="hero-inner">
-          <div className="hero-content space-y-3 md:space-y-6 text-left">
+          <div className="hero-content space-y-3 md:space-y-4 text-left">
             <h1 className="text-[26px] xs:text-3xl sm:text-4xl md:text-[40px] lg:text-[48px] font-extrabold tracking-tight leading-tight md:leading-[1.1]">
-              Conserto e manutenção de câmaras frias, refrigeradores comerciais e ar-condicionado <span className="text-[var(--color-brand-accent)]">em Belo Horizonte</span>
+              Conserto e manutenção de equipamentos de refrigeração e climatização <span className="text-[var(--color-brand-accent)]">em Belo Horizonte</span>
             </h1>
             
             <p className="text-xs sm:text-sm md:text-lg lg:text-xl text-gray-300 leading-relaxed font-light">
