@@ -19,16 +19,16 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-3 justify-start pt-2">
-              <Button size="lg" className="w-full sm:w-auto h-12 md:h-14 px-6 md:px-10 text-sm md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md" asChild>
+              <Button size="lg" className="w-full sm:w-auto min-h-[48px] md:min-h-[56px] py-3 md:py-3.5 px-6 md:px-10 text-sm md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md h-auto" asChild>
                 <Link href="https://wa.me/553185398804?text=Olá, preciso falar com um técnico sobre meu equipamento de refrigeração." target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-center gap-2 w-full">
                   <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={20} height={20} className="brightness-0 invert shrink-0 md:w-6 md:h-6" />
                   <span>Falar com um técnico agora</span>
                 </Link>
               </Button>
               
-              <Button size="lg" variant="outline" className="w-full sm:w-auto h-12 md:h-14 px-6 md:px-10 text-sm md:text-lg text-white border-white hover:bg-white hover:text-[var(--color-brand-primary)] font-bold shadow-md" asChild>
-                <Link href="#servicos" className="flex flex-row items-center justify-center gap-2 w-full">
-                  <span>Ver serviços</span>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto min-h-[48px] md:min-h-[56px] py-3 md:py-3.5 px-6 md:px-10 text-sm md:text-lg text-white border-white hover:bg-white hover:text-[var(--color-brand-primary)] font-bold shadow-md h-auto" asChild>
+                <Link href="https://wa.me/553185398804?text=Olá, gostaria de conversar sobre meu equipamento de refrigeração." target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-center gap-2 w-full">
+                  <span>Conversar agora</span>
                 </Link>
               </Button>
             </div>

@@ -13,15 +13,15 @@ export function ContactCTA() {
             Explique o que está acontecendo e informe sua localização. A equipe da Nardus analisará a solicitação e orientará os próximos passos de forma rápida.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
-            <Button size="lg" className="w-full sm:w-auto h-14 px-10 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md" asChild>
-              <Link href="https://wa.me/553185398804?text=Olá, vim pelo site da Nardus Soluções e preciso de atendimento para meu equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+            <Button size="lg" className="w-full sm:w-auto min-h-[56px] py-3.5 px-10 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md h-auto" asChild>
+              <Link href="https://wa.me/553185398804?text=Olá, vim pelo site da Nardus Soluções e preciso de atendimento para meu equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
                 <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-6 h-6 brightness-0 invert shrink-0" />
                 <span>Falar com um técnico no WhatsApp</span>
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto h-14 px-10 text-base md:text-lg text-[var(--color-brand-primary)] border-[var(--color-brand-primary)] hover:bg-gray-50 font-bold shadow-md" asChild>
-              <Link href="#servicos" className="flex items-center justify-center gap-2">
-                <span>Ver serviços</span>
+            <Button size="lg" variant="outline" className="w-full sm:w-auto min-h-[56px] py-3.5 px-10 text-base md:text-lg text-[var(--color-brand-primary)] border-[var(--color-brand-primary)] hover:bg-gray-50 font-bold shadow-md h-auto" asChild>
+              <Link href="https://wa.me/553185398804?text=Olá, gostaria de conversar sobre meu equipamento de refrigeração." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
+                <span>Conversar agora</span>
               </Link>
             </Button>
           </div>
