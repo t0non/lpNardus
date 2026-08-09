@@ -34,16 +34,18 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="hero-image-wrapper mt-6 md:mt-0">
+          <div className="hero-image-wrapper mt-6 md:mt-0 relative">
             <Image 
               src="/professional_hero.png" 
               alt="Profissional Nardus Soluções" 
               width={560} 
               height={650} 
-              className="hero-image drop-shadow-2xl max-w-[280px] sm:max-w-[340px] md:max-w-none"
+              className="hero-image drop-shadow-2xl max-w-[280px] sm:max-w-[340px] md:max-w-none relative z-10"
               priority
               unoptimized={true}
             />
+            {/* Bottom gradient fade overlay */}
+            <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 z-20 pointer-events-none" style={{background: 'linear-gradient(to top, var(--color-brand-primary) 0%, transparent 100%)'}} />
           </div>
         </div>
       </div>
