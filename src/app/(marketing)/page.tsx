@@ -1,6 +1,5 @@
 import { Hero } from "@/components/sections/Hero";
 import { CredibilityBar } from "@/components/sections/CredibilityBar";
-import { DiagnosisOffer } from "@/components/sections/DiagnosisOffer";
 import { PainSection } from "@/components/sections/PainSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
@@ -14,7 +13,6 @@ export default function Home() {
     <>
       <Hero />
       <CredibilityBar />
-      <DiagnosisOffer />
       <PainSection />
       <ServicesSection />
       <ProcessSteps />
