@@ -5,11 +5,11 @@ import { CheckCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative bg-[var(--color-brand-primary)] text-white overflow-hidden pt-24 md:pt-36">
+    <section className="relative bg-[var(--color-brand-primary)] text-white overflow-hidden">
       <div className="container relative z-10 pb-8 md:pb-16">
         <div className="hero-inner">
           <div className="hero-content space-y-3 md:space-y-6 text-left">
-            <h1 className="text-[22px] xs:text-2xl sm:text-3xl md:text-5xl lg:text-[52px] font-extrabold tracking-tight leading-tight md:leading-tight">
+            <h1 className="text-[26px] xs:text-3xl sm:text-4xl md:text-6xl lg:text-[64px] font-extrabold tracking-tight leading-tight md:leading-[1.1]">
               Conserto e manutenção de câmaras frias, refrigeradores comerciais e ar-condicionado <span className="text-[var(--color-brand-accent)]">em Belo Horizonte</span>
             </h1>
             
