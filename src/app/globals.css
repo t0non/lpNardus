@@ -87,7 +87,7 @@ body {
 .hero-inner {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.8fr);
-  align-items: end;
+  align-items: center;
   gap: clamp(48px, 7vw, 110px);
   min-height: auto;
   padding-top: 140px;
@@ -96,7 +96,7 @@ body {
 
 .hero-content {
   max-width: 720px;
-  margin-top: -110px;
+  margin-top: 0;
 }
 
 .hero-image-wrapper {
