@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative bg-[var(--color-brand-primary)] text-white overflow-hidden">
-      <div className="container relative z-10 pb-8 md:pb-16">
+      <div className="container relative z-10">
         <div className="hero-inner">
           <div className="hero-content space-y-3 md:space-y-4 text-left">
             <h1 className="text-[26px] xs:text-3xl sm:text-4xl md:text-[40px] lg:text-[48px] font-extrabold tracking-tight leading-tight md:leading-[1.1]">

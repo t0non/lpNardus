@@ -87,11 +87,11 @@ body {
 .hero-inner {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.8fr);
-  align-items: center;
+  align-items: end;
   gap: clamp(48px, 7vw, 110px);
-  min-height: 82vh;
+  min-height: auto;
   padding-top: 140px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .hero-content {
