@@ -4,12 +4,6 @@ import { Button } from "@/components/ui/Button";
 import { CheckCircle } from "lucide-react";
 
 export function Hero() {
-  const badges = [
-    "Sem taxa de visita em BH",
-    "Atendimento no mesmo dia",
-    "Garantia por escrito"
-  ];
-
   return (
     <section className="relative bg-[var(--color-brand-primary)] text-white overflow-hidden pt-24 md:pt-36">
       <div className="container relative z-10 pb-8 md:pb-16">
@@ -22,16 +16,6 @@ export function Hero() {
             <p className="text-xs sm:text-sm md:text-lg lg:text-xl text-gray-300 leading-relaxed font-light">
               Atendimento no mesmo dia em BH e Região Metropolitana, sem taxa de visita em BH, orçamento imediato e garantia por escrito.
             </p>
-
-            {/* Badges Row */}
-            <div className="flex flex-wrap gap-x-4 gap-y-2 pt-1">
-              {badges.map((badge, index) => (
-                <div key={index} className="flex items-center gap-1.5 text-[11px] sm:text-xs md:text-base font-semibold text-[var(--color-brand-accent)]">
-                  <CheckCircle size={14} className="shrink-0 md:w-[18px] md:h-[18px]" />
-                  <span>{badge}</span>
-                </div>
-              ))}
-            </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-3 justify-start pt-2">
