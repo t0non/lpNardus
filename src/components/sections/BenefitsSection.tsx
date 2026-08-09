@@ -26,11 +26,11 @@ export function BenefitsSection() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {benefits.map((benefit, i) => (
-            <div key={i} className="bg-white p-8 rounded-3xl border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-gray-300 transition-all duration-300 flex flex-col items-start gap-5">
-              <div className="flex items-center justify-center text-[var(--color-brand-primary)] flex-shrink-0">
+            <div key={i} className="bg-white p-8 rounded-3xl border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-gray-300 transition-all duration-300 flex flex-col items-center md:items-start gap-5">
+              <div className="flex items-center justify-center text-[var(--color-brand-primary)] flex-shrink-0 mx-auto md:mx-0">
                 {benefit.icon}
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 text-center md:text-left w-full">
                 <h3 className="text-xl font-bold text-gray-900">{benefit.title}</h3>
                 <p className="text-gray-600 leading-relaxed text-sm md:text-base">
                   {benefit.desc}
