@@ -14,7 +14,15 @@ export function CredibilityBar() {
           
           {/* Big Stat */}
           <div className="space-y-1 relative">
-            <div className="text-2xl md:text-3xl font-extrabold text-[var(--color-brand-accent)]">
+            <div
+              className="text-2xl md:text-3xl font-extrabold"
+              style={{
+                background: 'linear-gradient(to top, #ffffff 0%, #C4A152 50%, #a07830 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
               +500 atendimentos realizados em Belo Horizonte e Região Metropolitana
             </div>
           </div>
