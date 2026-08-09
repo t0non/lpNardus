@@ -21,9 +21,8 @@ export function Header() {
   return (
     <>
       {/* Sticky Local SEO Bar */}
-      <div className="fixed top-0 left-0 w-full h-10 bg-[#070e2c] border-b border-white/5 text-white text-xs font-semibold flex items-center justify-center z-50 px-4 gap-2 shadow-sm">
-        <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse shrink-0"></span>
-        <span className="tracking-wide">Manutenção e conserto de refrigeração e ar-condicionado comercial em BH</span>
+      <div className="fixed top-0 left-0 w-full h-10 bg-[#070e2c] border-b border-white/5 text-white text-[10px] sm:text-xs font-light flex items-center justify-center z-50 px-4 shadow-sm uppercase tracking-widest">
+        <span>Manutenção e conserto de refrigeração e ar-condicionado comercial em BH</span>
       </div>
       
       {/* Sticky Main Header */}
