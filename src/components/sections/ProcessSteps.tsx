@@ -8,17 +8,17 @@ export function ProcessSteps() {
     {
       title: "Chame no WhatsApp",
       desc: "Clique no botão verde e fale com um técnico agora mesmo.",
-      icon: <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-16 h-16 object-contain" style={{ filter: 'brightness(0) saturate(100%) invert(20%) sepia(96%) saturate(3477%) hue-rotate(218deg) brightness(88%) contrast(100%)' }} />
+      icon: <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-20 h-20 object-contain" style={{ filter: 'brightness(0) saturate(100%) invert(20%) sepia(96%) saturate(3477%) hue-rotate(218deg) brightness(88%) contrast(100%)' }} />
     },
     {
       title: "Receba o Técnico",
       desc: "Agendamos a visita no mesmo dia. Sem taxa de visita em BH!",
-      icon: <img src="/receba o tecnico.png" alt="Receba o Técnico" className="w-28 h-28 object-contain" />
+      icon: <img src="/receba o tecnico.png" alt="Receba o Técnico" className="w-20 h-20 object-contain" loading="lazy" decoding="async" />
     },
     {
       title: "Aparelho Consertado",
       desc: "Serviço rápido, com peças originais e garantia total.",
-      icon: <img src="/aparelho consertado.png" alt="Aparelho Consertado" className="w-28 h-28 object-contain" />
+      icon: <img src="/aparelho consertado.png" alt="Aparelho Consertado" className="w-20 h-20 object-contain" loading="lazy" decoding="async" />
     }
   ];
 
