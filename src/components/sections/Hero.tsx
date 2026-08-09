@@ -10,7 +10,7 @@ export function Hero() {
         <div className="hero-inner">
           <div className="hero-content space-y-5 text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-              Manutenção de ar-condicionado, câmaras frias e refrigeração comercial <span className="text-[var(--color-brand-accent)]">em BH.</span>
+              Refrigeração e ar-condicionado <span className="text-[var(--color-brand-accent)]">para sua empresa não parar.</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
               Instalação, manutenção e assistência técnica em ar-condicionado, câmaras frias e sistemas de refrigeração em Belo Horizonte e região.
