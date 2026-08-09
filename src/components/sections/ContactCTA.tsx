@@ -20,8 +20,8 @@ export function ContactCTA() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto h-14 px-10 text-base md:text-lg text-[var(--color-brand-primary)] border-[var(--color-brand-primary)] hover:bg-gray-50 font-bold shadow-md" asChild>
-              <Link href="https://wa.me/553185398804?text=Olá, gostaria de solicitar um diagnóstico técnico." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-                <span>Solicitar diagnóstico</span>
+              <Link href="#servicos" className="flex items-center justify-center gap-2">
+                <span>Ver serviços</span>
               </Link>
             </Button>
           </div>
