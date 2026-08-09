@@ -13,10 +13,10 @@ export function ContactCTA() {
             Explique o que está acontecendo e informe sua localização. A equipe da Nardus analisará a solicitação e orientará os próximos passos de forma rápida.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
-            <Button size="lg" className="w-full sm:w-auto min-h-[56px] py-3.5 px-6 md:px-10 text-sm md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md h-auto" asChild>
-              <Link href="https://wa.me/553185398804?text=Olá, vim pelo site da Nardus Soluções e preciso de atendimento para meu equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
+            <Button size="lg" className="w-full sm:w-auto min-h-[56px] py-3.5 px-6 md:px-10 text-sm md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md h-auto !whitespace-normal" asChild>
+              <Link href="https://wa.me/553185398804?text=Olá, vim pelo site da Nardus Soluções e preciso de atendimento para meu equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full text-center">
                 <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 md:w-6 md:h-6 brightness-0 invert shrink-0" />
-                <span className="whitespace-normal text-center leading-tight">Falar com um técnico no WhatsApp</span>
+                <span className="leading-tight">Falar com um técnico no WhatsApp</span>
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto min-h-[56px] py-3.5 px-10 text-base md:text-lg text-[var(--color-brand-primary)] border-[var(--color-brand-primary)] hover:bg-gray-50 font-bold shadow-md h-auto" asChild>
