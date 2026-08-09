@@ -27,8 +27,8 @@ export function Hero() {
               </Button>
               
               <Button size="lg" variant="outline" className="w-full sm:w-auto min-h-[48px] md:min-h-[56px] py-3 md:py-3.5 px-6 md:px-10 text-sm md:text-lg text-white border-white hover:bg-white hover:text-[var(--color-brand-primary)] font-bold shadow-md h-auto" asChild>
-                <Link href="https://wa.me/553185398804?text=Olá, gostaria de conversar sobre meu equipamento de refrigeração." target="_blank" rel="noopener noreferrer" className="flex flex-row items-center justify-center gap-2 w-full">
-                  <span>Conversar agora</span>
+                <Link href="#servicos" className="flex flex-row items-center justify-center gap-2 w-full">
+                  <span>Ver serviços</span>
                 </Link>
               </Button>
             </div>
