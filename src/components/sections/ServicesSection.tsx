@@ -78,7 +78,7 @@ export function ServicesSection() {
                   <Button asChild className="shadow-sm w-fit px-10 h-14 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0">
                     <Link href={`https://wa.me/553185398804?text=Olá, preciso de atendimento para ${service.title.toLowerCase()}.`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
                       <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 brightness-0 invert shrink-0" />
-                      <span>Agendar Avaliação</span>
+                      <span>Solicitar diagnóstico</span>
                     </Link>
                   </Button>
                 </div>

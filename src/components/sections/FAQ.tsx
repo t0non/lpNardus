@@ -12,7 +12,7 @@ export function FAQ() {
     },
     {
       q: "A Nardus atende empresas e residências?",
-      a: "Nosso foco principal é B2B (empresas, comércios, indústrias, restaurantes, supermercados, clínicas, etc.), onde a refrigeração é crítica para o negócio."
+      a: "Nosso foco principal é B2B (empresas, comércios, indústrias, restaurantes, supermercados, clínicas, etc.), onde a refrigeração é crítica para a continuidade do negócio."
     },
     {
       q: "Quais regiões são atendidas?",
@@ -27,8 +27,16 @@ export function FAQ() {
       a: "Sim. A manutenção preventiva é altamente recomendada para evitar paradas não programadas e reduzir o consumo de energia dos equipamentos."
     },
     {
-      q: "O orçamento é gratuito?",
-      a: "[ORÇAMENTO GRATUITO? - PLACEHOLDER A SER CONFIRMADO PELO CLIENTE]"
+      q: "Quanto custa a manutenção?",
+      a: "O valor depende do equipamento e da falha identificada. Em BH, a visita técnica é gratuita e o orçamento é apresentado antes de qualquer serviço."
+    },
+    {
+      q: "Vocês atendem urgência?",
+      a: "Sim. Atendemos chamados emergenciais em Belo Horizonte e Região Metropolitana, conforme disponibilidade da equipe técnica."
+    },
+    {
+      q: "O serviço tem garantia?",
+      a: "Sim. Todos os serviços executados possuem garantia por escrito."
     }
   ];
 

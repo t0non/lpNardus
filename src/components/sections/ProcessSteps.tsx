@@ -30,7 +30,7 @@ export function ProcessSteps() {
             Como funciona o conserto em BH?
           </h2>
           <p className="text-lg text-gray-600">
-            É simples, rápido e seguro. Resolva problemas do seu eletrodoméstico em 3 passos:
+            É simples, rápido e seguro. Resolva os problemas do seu equipamento comercial em 3 passos:
           </p>
         </div>
 
@@ -52,9 +52,9 @@ export function ProcessSteps() {
 
         <div className="mt-12 flex justify-center">
           <Button asChild className="shadow-sm w-fit px-10 h-14 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0">
-            <Link href="https://wa.me/553185398804?text=Olá, gostaria de agendar uma visita técnica com um profissional." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+            <Link href="https://wa.me/553185398804?text=Olá, gostaria de solicitar um diagnóstico técnico com um profissional." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
               <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 brightness-0 invert shrink-0" />
-              <span>Agendar Visita Grátis</span>
+              <span>Solicitar diagnóstico</span>
             </Link>
           </Button>
         </div>

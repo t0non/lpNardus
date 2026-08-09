@@ -26,7 +26,7 @@ export function ReviewsSection() {
     {
       name: "Carlos Eduardo Silva",
       role: "Gerente do Restaurante Sabor & Cia",
-      text: "Excelente atendimento! Nossa câmara fria parou de funcionar de madrugada e o técnico da Nardus chegou super rápido. Salvou todo o nosso estoque de carnes e laticínios. Empresa séria e muito profissional.",
+      text: "Nossa câmara fria parou às 6h da manhã. Às 9h o equipamento já estava funcionando novamente. Evitamos perder mais de R$18 mil em estoque.",
       initials: "CS",
       color: "bg-blue-600"
     },
