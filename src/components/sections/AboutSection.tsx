@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function AboutSection() {
@@ -23,7 +24,7 @@ export function AboutSection() {
           <div className="pt-4">
             <Button asChild variant="secondary">
               <Link href="https://wa.me/[WHATSAPP]?text=Olá, vim pelo site da Nardus Soluções e gostaria de tirar dúvidas." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-                <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 shrink-0" />
+                <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={20} height={20} className="w-5 h-5 shrink-0" />
                 <span>Falar com a Nardus</span>
               </Link>
             </Button>

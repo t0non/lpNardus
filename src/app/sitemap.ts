@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://nardussolucoes.com.br"; // Placeholder URL
+  const baseUrl = "https://nardusrefrigeracao.com.br";
 
   const routes = [
     "",

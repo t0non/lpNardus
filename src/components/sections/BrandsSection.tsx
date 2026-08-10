@@ -29,12 +29,12 @@ export function BrandsSection() {
         <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8 max-w-5xl mx-auto">
           {brands.map((brand, i) => (
             <div key={i} className="h-10 flex items-center justify-center min-w-[100px] max-w-[120px] transition-transform duration-300 hover:scale-105">
-              <img 
+              <Image 
                 src={brand.logo} 
                 alt={brand.name} 
+                width={120}
+                height={40}
                 className="max-h-full max-w-full object-contain" 
-                loading="lazy"
-                decoding="async"
               />
             </div>
           ))}

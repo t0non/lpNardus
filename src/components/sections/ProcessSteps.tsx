@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function ProcessSteps() {
@@ -7,17 +8,17 @@ export function ProcessSteps() {
     {
       title: "Chame no WhatsApp",
       desc: "Clique no botão verde e fale com um técnico agora mesmo.",
-      icon: <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-20 h-20 object-contain" style={{ filter: 'brightness(0) saturate(100%) invert(20%) sepia(96%) saturate(3477%) hue-rotate(218deg) brightness(88%) contrast(100%)' }} />,
+      icon: <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={80} height={80} className="w-20 h-20 object-contain" style={{ filter: 'brightness(0) saturate(100%) invert(20%) sepia(96%) saturate(3477%) hue-rotate(218deg) brightness(88%) contrast(100%)' }} />,
     },
     {
       title: "Receba o Técnico",
       desc: "Agendamos a visita no mesmo dia. Sem taxa de visita em BH!",
-      icon: <img src="/receba o tecnico.png" alt="Receba o Técnico" className="w-20 h-20 object-contain" loading="lazy" decoding="async" />,
+      icon: <Image src="/receba o tecnico.png" alt="Receba o Técnico" width={80} height={80} className="w-20 h-20 object-contain" />,
     },
     {
       title: "Aparelho Consertado",
       desc: "Serviço rápido, com peças originais e garantia total.",
-      icon: <img src="/aparelho consertado.png" alt="Aparelho Consertado" className="w-20 h-20 object-contain" loading="lazy" decoding="async" />,
+      icon: <Image src="/aparelho consertado.png" alt="Aparelho Consertado" width={80} height={80} className="w-20 h-20 object-contain" />,
     },
   ];
 
@@ -52,7 +53,7 @@ export function ProcessSteps() {
         <div className="mt-12 flex justify-center">
           <Button asChild className="shadow-sm w-fit px-10 min-h-[56px] py-3.5 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0 h-auto">
             <Link href="https://wa.me/553185398804?text=Olá, gostaria de conversar sobre meu equipamento de refrigeração." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
-              <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 brightness-0 invert shrink-0" />
+              <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={20} height={20} className="brightness-0 invert shrink-0" />
               <span>Conversar agora</span>
             </Link>
           </Button>

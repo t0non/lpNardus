@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function ContactCTA() {
@@ -15,7 +16,7 @@ export function ContactCTA() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
             <Button size="lg" className="w-full sm:w-auto min-h-[56px] py-3.5 px-6 md:px-10 text-sm md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold border-0 shadow-md h-auto !whitespace-normal" asChild>
               <Link href="https://wa.me/553185398804?text=Olá, vim pelo site da Nardus Soluções e preciso de atendimento para meu equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full text-center">
-                <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 md:w-6 md:h-6 brightness-0 invert shrink-0" />
+                <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={24} height={24} className="w-5 h-5 md:w-6 md:h-6 brightness-0 invert shrink-0" />
                 <span className="leading-tight">Falar com um técnico no WhatsApp</span>
               </Link>
             </Button>

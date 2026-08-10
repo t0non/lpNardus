@@ -1,5 +1,6 @@
 import { Building2, Utensils, ShoppingCart, Stethoscope, Factory, Store } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function TargetAudience() {
@@ -38,7 +39,7 @@ export function TargetAudience() {
         <div className="mt-12 flex justify-center">
           <Button asChild className="shadow-sm w-fit px-8 h-12 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0">
             <Link href="https://wa.me/[WHATSAPP]?text=Olá, preciso de atendimento de refrigeração para minha empresa." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-              <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 brightness-0 invert shrink-0" />
+              <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={20} height={20} className="brightness-0 invert shrink-0" />
               <span>Solicitar Orçamento B2B</span>
             </Link>
           </Button>

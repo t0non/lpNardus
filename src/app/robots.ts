@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://nardussolucoes.com.br"; // Placeholder
+  const baseUrl = "https://nardusrefrigeracao.com.br";
 
   return {
     rules: {

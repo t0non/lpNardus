@@ -33,9 +33,11 @@ export function PainSection() {
         
         {/* Decorative AC image centered */}
         <div className="flex justify-center mb-8 relative z-20 pointer-events-none">
-          <img 
+          <Image 
             src="/images/arcondicionado.png" 
             alt="Ar condicionado split" 
+            width={380}
+            height={200}
             className="w-[260px] md:w-[380px] h-auto drop-shadow-[0_10px_15px_rgba(0,0,0,0.15)]"
           />
         </div>

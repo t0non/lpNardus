@@ -36,6 +36,22 @@ export function ServicesSection() {
       href: "/servicos/refrigeracao-comercial",
       image: "/refrigeradores_comerciais.png",
       icon: <Settings className="w-6 h-6" />
+    },
+    {
+      title: "Sistemas de Refrigeração Central (Racks)",
+      desc: "Alta potência e controle preciso para grandes indústrias e supermercados. Instalação, manutenção preventiva e corretiva de centrais de frio (racks de compressores), garantindo alta eficiência energética e redundância operacional.",
+      problem: "Evite paradas críticas em todo o sistema de frio alimentar que podem comprometer toneladas de produtos de uma só vez.",
+      href: "/servicos/refrigeracao-central",
+      image: "/images/racks.png",
+      icon: <Settings className="w-6 h-6" />
+    },
+    {
+      title: "Chillers",
+      desc: "Manutenção corretiva, preventiva e instalação de Chillers de condensação a ar ou água. Soluções focadas em manter o controle térmico de processos industriais, hospitais e grandes edifícios comerciais.",
+      problem: "Previna falhas no resfriamento de processos industriais e de climatização central que podem paralisar sua produção ou comprometer a operação.",
+      href: "/servicos/chillers",
+      image: "/images/chillers.jpg",
+      icon: <Settings className="w-6 h-6" />
     }
   ];
 
@@ -51,16 +67,16 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, i) => (
             <div key={i} className="group flex flex-col bg-transparent">
               <div className="relative w-full h-52 flex items-center justify-center mb-6 bg-transparent">
-                <img 
+                <Image 
                   src={service.image} 
                   alt={service.title} 
+                  width={240}
+                  height={180}
                   className="max-h-[180px] max-w-[240px] object-contain transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
                 />
               </div>
               
@@ -77,10 +93,10 @@ export function ServicesSection() {
                 </div>
 
                 <div className="mt-auto pt-5 border-t border-gray-100 flex items-center justify-center">
-                  <Button asChild className="shadow-sm w-fit px-10 min-h-[56px] py-3.5 text-base md:text-lg bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0 h-auto">
+                  <Button asChild className="shadow-sm w-fit px-6 min-h-[48px] py-2.5 text-sm md:text-base bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold flex items-center justify-center border-0 h-auto">
                     <Link href={`https://wa.me/553185398804?text=Olá, preciso de atendimento para ${service.title.toLowerCase()}.`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
-                      <img src="/Icon_WhatsApp.png" alt="WhatsApp" className="w-5 h-5 brightness-0 invert shrink-0" loading="lazy" decoding="async" />
-                      <span>Falar com um técnico no WhatsApp</span>
+                      <Image src="/Icon_WhatsApp.png" alt="WhatsApp" width={20} height={20} className="brightness-0 invert shrink-0" />
+                      <span>Falar com um técnico</span>
                     </Link>
                   </Button>
                 </div>

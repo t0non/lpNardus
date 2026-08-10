@@ -5,9 +5,9 @@ export function LocalBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
     "name": "Nardus Soluções",
-    "image": "https://nardussolucoes.com.br/logo.png",
-    "@id": "https://nardussolucoes.com.br",
-    "url": "https://nardussolucoes.com.br",
+    "image": "https://nardusrefrigeracao.com.br/logo.png",
+    "@id": "https://nardusrefrigeracao.com.br",
+    "url": "https://nardusrefrigeracao.com.br",
     "telephone": "+55-31-8539-8804",
     "address": {
       "@type": "PostalAddress",
