@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/logo_nardus.png",
+    apple: "/logo_nardus.png",
   },
   openGraph: {
     title: "Manutenção de Refrigeração Comercial e Ar-condicionado em BH | Nardus Soluções",
